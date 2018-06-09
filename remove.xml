@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!--remove-project name="platform/build" />
+  <remove-project name="platform/build" />
 
   <remove-project name="platform/art" />
   <remove-project name="platform/bionic" />
@@ -81,7 +81,7 @@
   <remove-project name="platform/frameworks/webview" />
   <remove-project name="platform/frameworks/wilhelm" />
 
-  <remove-project name="platform/hardware/broadcom/libbt" />
+  <!--remove-project name="platform/hardware/broadcom/libbt" />
   <remove-project name="platform/hardware/broadcom/wlan" />
   <remove-project name="platform/hardware/intel/audio_media" />
   <remove-project name="platform/hardware/intel/bootstub" />
@@ -109,7 +109,7 @@
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/qcom/power" />
   <remove-project name="platform/hardware/qcom/wlan" />
-  <remove-project name="platform/hardware/ril" />
+  <remove-project name="platform/hardware/ril" /-->
 
   <remove-project name="platform/libcore" />
 
@@ -151,6 +151,6 @@
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/vold" />
-  <remove-project name="platform/system/sepolicy" /-->
+  <remove-project name="platform/system/sepolicy" /#>
 
 </manifest>
